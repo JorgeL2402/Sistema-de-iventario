@@ -94,7 +94,5 @@
 	$conexion=null; // Cerrar la conexión a la base de datos
 	echo $tabla; // Imprimir la tabla HTML
 
-	if($total>=1 && $pagina<=$Npaginas){ // Si hay registros y la página es válida, mostrar el paginador
-		echo paginador_tablas($pagina,$Npaginas,$url,7);
-	}
+	
 ?>
